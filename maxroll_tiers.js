@@ -51,7 +51,7 @@ async function extractTierList(url) {
   }
 }
 
-extractTierList("https://maxroll.gg/d4/tierlists/gauntlet-builds-tier-list")
+extractTierList("https://maxroll.gg/d4/tierlists/leveling-tier-list")
   .then((tierLists) => {
     if (tierLists) {
       console.log(tierLists);
